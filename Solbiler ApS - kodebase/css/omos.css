@@ -1,0 +1,122 @@
+/* Basic CSS reset */
+
+*, :after, :before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    font-size: 100%;
+    background-color: rgb(248, 250, 251);
+}
+
+/* You start your css below */
+
+
+.wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 5px;
+    font-family: Arial, sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+
+.login_symbol {
+    margin-right: 5px;
+}
+
+.sol {
+    font-size: 3rem;
+    margin-left: 1rem;
+    color:rgb(10, 63, 178);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.om-os {
+    text-decoration: none;
+    margin: 2rem;
+    font-size: 1rem;
+    color: black;
+}
+
+.om-os:hover {
+    text-decoration: underline;
+}
+
+.sidehoved {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.sidehoved h2 {
+    font-size: 3rem;
+    margin: auto;
+    color:rgb(10, 63, 178);
+}
+
+
+.login_symbol {
+    display: flex;
+    justify-content: center;
+}
+
+#lp-img {
+    width: 500px;
+    height: 650px;
+}
+
+.grid-container {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    flex-wrap: wrap;
+}
+
+.om {
+    line-height: 2rem;
+    width: 30rem;
+    padding: 2rem 2rem;
+    background-color: aliceblue;
+
+}
+
+.grid-container span {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+.opstart {
+     /* The image used */
+     background-image: url("../billeder/omosbiler.jpg");
+  
+     /* Set a specific height */
+     min-height: 500px; 
+   
+     /* Create the parallax scrolling effect */
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+button {
+    font-size: 12rem;
+    background: none;
+    color: white;
+    padding-top: 8rem;
+}
+
+button:hover {
+    color: rgb(195, 216, 234);
+}
